@@ -1,0 +1,54 @@
+let h1 = document.querySelector("h1");
+h1.innerText = h1.innerText + " Example";
+
+//let div= document.querySelector("div")
+//div.style.background="green";
+
+let divs = document.querySelectorAll(".box");
+
+divs.forEach((div) => {
+    div.style.backgroundColor="green"
+});
+
+
+
+let h1 = document.querySelector("h1");
+h1.innerText = h1.innerText + " Example";
+
+//let div= document.querySelector("div")
+//div.style.background="green";
+
+let divs = document.querySelectorAll(".box");
+
+divs.forEach((div,index) => {
+    
+
+    div.style.height = "200px";
+    div.style.width = "200px";
+    div.style.border = "4px solid black";
+    div.style.backgroundColor = "rgb(168, 179, 14)";
+    div.style.margin = "5px";
+    div.style.textAlign = "center";
+
+     // Prompting the user to enter text for each div
+     let userInput = prompt(`Enter text for div ${index + 1}:`);
+     div.innerText = userInput; 
+});
+
+let newbtn = document.createElement("button");
+newbtn.innerText = "Create";
+newbtn.style.fontSize = "40px";
+newbtn.style.backgroundColor = "rgb(121, 129, 9)";
+document.body.before(newbtn);
+
+let para = document.querySelector("p");
+para.classList.add("jsp");
+
+let newpara = document.createElement("p");
+newpara.innerText = "Resume";
+newpara.style.fontSize = "40px";
+newpara.style.backgroundColor = "rgb(1111, 221, 0)";
+document.body.before(newpara);
+
+
+<div class="container"></div>
