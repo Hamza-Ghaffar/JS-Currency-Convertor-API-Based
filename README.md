@@ -1,6 +1,7 @@
 # Currency Converter
+![image](https://github.com/Hamza-Ghaffar/JS-Currency-Convertor-API-Based/assets/73717242/9a9dfe36-583d-4c84-a404-ad2b2a0a39e6)
 
-This is a simple currency converter web application that allows users to convert amounts between different currencies using an external API for exchange rates.
+This is a API currency converter web application that allows users to convert amounts between different currencies using an external API for exchange rates.
 
 ## Table of Contents
 - [Features](#features)
